@@ -1,0 +1,337 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'nexaFontBold';
+}
+
+.navbar{
+   
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: -25px;
+    
+}
+.inventrom_logo{
+    
+    cursor:pointer;
+    margin-bottom:33px;
+    margin-top: 2px;
+   
+    
+    
+}
+.inventrom_logo{
+    padding-right: 30px;
+}
+
+.menu-icon{
+    width: 25px;
+    cursor:pointer;
+    display: none;
+}
+.nav_h{
+    flex:1;
+    text-align: right; 
+
+}
+.nav_h .ul_h .li_h{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+   
+}
+.nav_h .ul_h .li_h .a_h{
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+
+}
+.nav_h .ul_h .li_h .a_h:hover{
+    color:black;
+}
+.a_h{
+    text-decoration: none;
+}
+ .description{
+    background: url(https://inventrom.com/images/background-layer.png);
+     width: 100%;
+     height: 600px;
+     padding-top: 200px;
+     
+}
+
+   
+.text{
+    color: white;
+    text-align: center;
+    font-family: 'nexaFontBold';;
+   
+}
+.texthover{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.texthover:hover{
+    color: blueviolet;
+}
+
+#about_ul li{
+    list-style: none;
+    display: inline-block;
+    margin:50px;
+    
+    justify-content: center;
+    align-items: center;
+   
+}
+#about_ul{
+    margin-left:286px; 
+}
+.about_color{
+    text-align: center;
+    color: #08551f;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.ab_img{
+    width: 370px;
+    height:295px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ab_img2{
+    width: 370px;
+    height:280px;
+}
+.ab_desc{
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+    font-family: 'nexaFont';
+    line-height: 30px;
+    text-align: center;
+}
+.abb_desc{
+    color: rgb(99, 99, 99);
+   
+    font-family: 'nexaFont';
+    text-align: center;
+    
+    
+}
+ 
+.vm_color{
+    font-weight: bold;
+    color: #1a0808;
+    font-family: 'nexaFont';
+    line-height: 20px;
+    text-align: center;
+}
+.awards{
+      background-color: rgb(240, 240, 240);
+}
+.ac{
+    color: rgb(170, 166, 166);
+}
+.award_col{
+    text-align: center;
+    color:green;
+}
+footer{
+    color: white;
+    padding-top:20px ;
+    background-color: rgb(14, 94, 14);
+    padding-right: 30px;
+}
+
+.icons{
+    width: 30px;
+    height:29px;
+    
+}
+.foot{
+    padding-left: 500px;
+   
+    
+   
+}
+.copy{
+    position: absolute;
+    
+}
+.aul .ad {
+    list-style: none;
+    display: inline-block;
+    
+    margin-right: 30px;
+}
+
+.aul .ad .a1{
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+
+    
+    
+
+}
+.a1{
+    float: center;
+    align-items:center;
+}
+
+.foot .f_li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+   
+}
+.foot .f_li a{
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+
+}
+.goup{
+    margin-left: 1300px;
+    
+}
+.contactus{
+    background-color: rgb(240, 240, 240);
+     padding-left:180px; 
+     height:1100px;
+    
+    
+}
+.c_desc{
+   align-items: center;
+   text-align: center;
+   position: relative;
+   right: 300px;
+    color: rgb(34, 90, 23);
+}
+
+.cont_li{
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    
+    
+    
+    
+}
+.cont_ul{
+    background-color: rgb(240, 240, 240);
+    padding-bottom: -900px;
+    /* height:900px; */
+    
+    
+}
+#cont_ul .cont_li{
+    list-style: none;
+    
+    display:inline-block;
+   
+    
+    
+
+    
+    
+    
+   
+}
+ #li_id{
+    
+    margin:0px;
+    padding-left: 450px ;
+      position: relative;
+      bottom:1000px;
+      
+      
+    border:0px;
+   
+  
+   
+   
+    
+   
+   
+
+} 
+
+
+
+@media only screen and (max-width:800px) {
+    .nav_h .ul_h{
+        width: 100%;
+        
+        
+        position: absolute;
+        top:75px;
+        right:0;
+        z-index:2;
+    }
+    
+    .nav_h .ul_h .li_h{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .nav_h .ul_h .li_h .a_h{
+        color:white;
+
+    }
+    #about_ul{
+        margin-left:65px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .menu-icon{
+        display: block;
+        padding-right:20px;
+        
+    }
+    .menu-icon:hover{
+        
+        background-color: #139139;
+        padding:10px;
+        border-radius: 3px;
+
+    }
+    #menuList{
+        overflow:hidden;
+        
+        transition: 0.5s;
+    }
+    
+    .ad{
+        text-decoration: none;
+        color: black;
+        font: size 12px;
+        
+        text-align: center;
+
+
+    }
+    .ad .aul{
+        
+       display:flex;
+       flex-direction: row;
+       
+    }
+    .contactus{
+        color: rgb(240, 240, 240);
+        padding-left:200px;
+        margin:30px 20px ;
+        
+    }
+    
+
+    
+    
+    
+    
+}
